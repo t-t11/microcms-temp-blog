@@ -44,14 +44,19 @@
   margin-left: 16px;
 }
 
+.picture {
+  text-align: center;
+}
+
 .thumbnail {
-  width: 960px;
+  width: 80%;
   height: auto;
   margin-bottom: 64px;
 }
 
 .content {
-  width: 720px;
+  padding: 0 24px;
+  width: 100%;
 }
 
 .content *:first-child {
@@ -227,6 +232,10 @@
     margin-left: 16px;
   }
 
+  .picture {
+    text-align: center;
+  }
+
   .thumbnail {
     width: 100%;
     height: auto;
@@ -234,6 +243,7 @@
   }
 
   .content {
+    padding: 0;
     width: 100%;
   }
 }

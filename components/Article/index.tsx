@@ -35,7 +35,7 @@ export default function Article({ data }: Props) {
         )}
         <PublishedDate date={data.publishedAt || data.createdAt} />
       </div>
-      <picture>
+      <picture className={styles.picture}>
         <source
           type="image/webp"
           media="(max-width: 640px)"
