@@ -14,6 +14,7 @@ export const metadata = {
     title: 'Simple Blog',
     description: 'A simple blog presented by microCMS',
     images: '/ogp.png',
+    type: 'website',
   },
   alternates: {
     canonical: '/',

@@ -25,6 +25,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
       title: data.title,
       description: data.description,
       images: [data?.thumbnail?.url || ''],
+      type: 'article',
     },
   };
 }
