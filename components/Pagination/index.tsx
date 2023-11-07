@@ -10,7 +10,7 @@ type Props = {
 };
 
 export default function Pagination({ totalCount, current = 1, basePath = '', q }: Props) {
-  const pages = Array.from({ length: Math.ceil(totalCount / LIMIT) }).map((_, i) => i + 1);
+  const pages = Array.from({ length: Math.ceil(totalCount / LIMIT) }, (_, i) => i + 1);
   return (
     <ul className={styles.container}>
       {pages.map((p) => (
